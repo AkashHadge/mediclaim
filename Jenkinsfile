@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {
-            git 'https://github.com/SahityaBattula/mediclaim.git'
+            git 'https://github.com/AkashHadge/mediclaim.git'
 		}
 	}
 	stage('Build') {
